@@ -1,0 +1,268 @@
+.content-panel {
+  width: min(980px, 100%);
+}
+
+.form-card.compact {
+  margin: 0;
+}
+
+.dashboard-blank {
+  min-height: calc(100vh - 96px);
+}
+
+.section-heading {
+  margin-bottom: 18px;
+}
+
+.section-heading h1 {
+  margin: 0;
+  color: #12323a;
+}
+
+.table-shell {
+  overflow-x: auto;
+  background: #ffffff;
+  border: 1px solid #d8e4e7;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #edf3f4;
+}
+
+th {
+  color: #49606a;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.temp-password {
+  padding: 12px;
+  border: 1px solid #b7e1cd;
+  border-radius: 8px;
+  color: #0b6b45;
+  background: #f0fbf5;
+  overflow-wrap: anywhere;
+}
+.admin-logs-page {
+  display: grid;
+  gap: 18px;
+}
+
+.admin-logs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.admin-logs-header span {
+  color: #0f6c7b;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.admin-logs-header h1 {
+  margin: 5px 0 0;
+  color: #0b2239;
+}
+
+.admin-logs-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.admin-log-tabs,
+.admin-log-panel {
+  border: 1px solid #d7e2ea;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 22px 58px rgba(11, 34, 57, 0.08);
+}
+
+.admin-log-tabs {
+  display: grid;
+  gap: 6px;
+  padding: 10px;
+}
+
+.admin-log-tabs button {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+  color: #244951;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.admin-log-tabs button span {
+  min-width: 0;
+  flex: 1;
+}
+
+.admin-log-tabs button.active,
+.admin-log-tabs button:hover {
+  color: #0f6c7b;
+  background: #edf6f8;
+}
+
+.admin-log-panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.admin-log-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  border-bottom: 1px solid #e1eaf0;
+  background: linear-gradient(180deg, #ffffff, #f8fbfd);
+}
+
+.admin-log-panel-header h2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  color: #0b2239;
+  font-size: 1.08rem;
+}
+
+.admin-log-panel-header p {
+  margin: 6px 0 0;
+  color: #526377;
+  font-size: 0.86rem;
+}
+
+.admin-log-date-filters {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-log-date-filters label {
+  display: grid;
+  gap: 5px;
+  color: #526377;
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.admin-log-date-filters input {
+  height: 36px;
+  border: 1px solid #c9d9dd;
+  border-radius: 10px;
+  color: #0b2239;
+  background: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 900;
+  padding: 0 10px;
+}
+
+.admin-log-date-filters button {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  border: 1px solid #b9d2db;
+  border-radius: 999px;
+  color: #0f6c7b;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.admin-log-table-shell {
+  width: 100%;
+  overflow: auto;
+}
+
+.admin-log-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.admin-log-table th,
+.admin-log-table td {
+  padding: 11px 12px;
+  border-bottom: 1px solid #e8eff3;
+  color: #1f3941;
+  font-size: 0.76rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.admin-log-table th {
+  color: #526377;
+  background: #f3f7fa;
+  font-size: 0.64rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.admin-log-table td {
+  font-weight: 800;
+}
+
+.log-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.log-status.success {
+  color: #0b6b45;
+}
+
+.log-status.failure {
+  color: #ad2e2e;
+}
+
+.log-status.running {
+  color: #0f6c7b;
+}
+
+.admin-log-panel > .form-message {
+  margin: 14px 18px 0;
+}
+
+@media (max-width: 980px) {
+  .admin-logs-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-log-panel-header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

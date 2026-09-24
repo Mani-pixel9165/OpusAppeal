@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+backend.env
+instance/
+.pytest_cache/
+migrations/versions/*.pyc
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+vite.log
+.DS_Store

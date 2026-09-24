@@ -1,0 +1,2 @@
+Use `flask --app app.py db init` if this folder is not initialized locally, then run migrate and upgrade.
+
